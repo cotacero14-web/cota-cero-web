@@ -14,3 +14,16 @@ section{max-width:1100px;margin:auto;padding:64px 16px}
 .marca{background:var(--tinta);color:var(--brote)!important}.espacio{background:var(--arcilla)}.obra{background:var(--hoja)}
 .contacto a{color:var(--hoja)}
 footer{text-align:center;padding:32px;font:400 .75rem 'DM Mono',monospace;color:var(--grafito)}
+
+.ideacion h2{font-size:clamp(2rem,6vw,4rem);line-height:1;color:var(--hoja);max-width:16ch}
+.lead{font-size:1.1rem;color:var(--grafito);max-width:56ch;margin:16px 0 40px}
+.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.card{background:#fff;border-radius:28px;overflow:hidden}
+.card img{display:block;width:100%;height:auto}
+.meta{padding:24px}
+.meta h3{font:800 1.5rem 'Bricolage Grotesque',sans-serif;color:var(--hoja)}
+.mono{font:400 .75rem 'DM Mono',monospace;text-transform:uppercase;color:var(--arcilla);margin:4px 0 12px}
+.meta p:not(.mono){color:var(--grafito)}
+.meta ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.meta li{font:400 .7rem 'DM Mono',monospace;background:var(--hueso);color:var(--grafito);padding:4px 12px;border-radius:999px}
+@media(max-width:560px){.top{flex-wrap:wrap;gap:8px}nav{width:100%;display:flex;justify-content:space-between}nav a{margin:0;font-size:.72rem}}
