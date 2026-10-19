@@ -1,7 +1,7 @@
 # Cota Cero — sitio web
 
-Estudio de marca, espacio y obra. Sitio estático (HTML + CSS), sin build.
+Catálogo en tres fases: **01 Ideación · 02 Diseño · 03 Ejecución**. Sitio estático, sin build.
 
-- Vista local: abrir `index.html`
-- Marca: ver el manual (colores `#C9DB6A` Brote, `#B8693F` Arcilla, `#2E4A33` Hoja; Bricolage Grotesque / DM Sans / Instrument Serif / DM Mono)
-- Contacto: cotacero14@gmail.com
+La fuente (carpetas de fotos + `build_catalogo.py`) vive en `000. CATALGO\RENDERS.COGOLLO\CATALOGO DE SERVICIOS`; `index.html` y `_assets/web` son su salida (`catalogo.html`).
+
+Contacto: cotacero14@gmail.com
